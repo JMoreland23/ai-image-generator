@@ -68,10 +68,10 @@ const Home = () => {
   return (
     <section className="max-w-7xl mx-auto p-5" >
         <div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-lg" >Jeff's Community Showcase!</h1>
-            <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">My name is Jeff and I created an Image Generator for myself and I thought other people could use it as well! Take a look at what other people have created and download some of them or click on "Create" button on the top right to create your own!</p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl h-16 font-extrabold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-center bg-clip-text text-transparent drop-shadow-lg" >AI Image Generator</h1>
+            <p className="mt-2 text-[#666e75]  text-[14px] m-auto max-w-[500px]">Check out what people have created or go generate your own and try it out!</p>
         </div>
-        <div className="mt-16" >
+        <div className="mt-16 max-w-[600px] m-auto" >
             <FormField 
                 labelName="Search Posts"
                 type="text"
